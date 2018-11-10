@@ -25,9 +25,10 @@ body {
 	width: 20vw;
 	text-align: center;
 	overflow: hidden;
-	border-right: solid;
+	border: 1px solid;
 	min-width: 100px;
-	background-color: #55E6C1;
+	background: #f2709c;
+	background: linear-gradient(to top, #757f9a, #d7dde8);
 	font-size: 1.2rem;
 	font-weight: 500;
 }
@@ -45,13 +46,13 @@ body {
 }
 
 .main-nav li {
-	border: 1px solid black;
+	border: 1px solid;
 	line-height: 8vh;
 	overflow: hidden;
 }
 
 .main-nav li:hover {
-	background-color: #58B19F;
+	background-color: #d7dde8;
 	transform: scale(1.1);
 	transition: all 0.3s ease;
 }
@@ -173,6 +174,24 @@ hr {
 		margin: 20vh 0;
 	}
 }
+
+/*FOOTER*/
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	background: yellow;
+	height: 30px;
+	background: #f2709c;
+	background: linear-gradient(to top, #757f9a, #d7dde8);
+}
+
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
 
 @media screen and (min-width: 781px) {
 	.hidden {
